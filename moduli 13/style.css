@@ -1,0 +1,26 @@
+ul{
+    list-style-type: circle;
+    border-left: 5px solid palegreen;
+    background-color: wheat;
+    font-size: 20px;
+}
+ol{
+    list-style-type: lower-alpha;
+    background-color: azure;
+    padding: 30px;
+    border: 2px solid rebeccapurple;
+}
+ol li{
+    background-color:blanchedalmond;
+    padding: 10px;
+    margin-left: 20px;
+};
+tbody tr:nth-child(odd){
+    background-color: blueviolet;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(139, 78, 197);
+}
+td,th{
+    border: 1px solid gray;
+padding: 15px;}
