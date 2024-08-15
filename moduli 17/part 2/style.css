@@ -1,0 +1,58 @@
+:root{
+    --primary-color: darkblue;
+    --secondary-color: white;
+    --padding: 20px;
+}
+h1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+p{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+#example-one{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background: green;
+}
+#example-two{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid yellow;
+}
+#example-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid rebeccapurple;
+}
+#example-four{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 5px;
+    border: 3px solid pink;
+}
+#example-five{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px/30px;
+    border: 3px solid blue;
+    background-color: aquamarine;
+}
+#example-six{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px/10px;
+    border: 3px solid purple;
+}
