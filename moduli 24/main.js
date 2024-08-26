@@ -45,4 +45,4 @@ button4.onmouseenter = function(){
 }
 
 square.onclick=function(){
-square.setAttribute("class","circle");}
+square.setAttribute("class","square");}
