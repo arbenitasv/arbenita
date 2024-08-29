@@ -50,3 +50,10 @@ document.getElementById('rez11').innerHTML= text10.match(regex6)
 var text11= "cat, catalog, category"
 var regex7=/^cat/g
 document.getElementById('rez12').innerHTML= text11.match(regex7)
+
+
+
+
+
+
+
