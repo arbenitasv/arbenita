@@ -32,7 +32,7 @@ if(!(name.match(name_regex)) || !(age.match(age_regex)) || (city=="")) {
 
 
      if(city == ""){
-        ocument.getElementById('city_error').style.visibility="visible";
+        document.getElementById('city_error').style.visibility="visible";
         document.getElementById('city').style.borderColor='red';
     }else{
         document.getElementById('city_error').style.visibility="hidden";
